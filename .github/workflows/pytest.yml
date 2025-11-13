@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: clone repository
-        run: |
+        run:  |
           git clone https://github.com/hello-l-o-v-e/github-actions-python
           cd github-actions-python
       - name: install pytest
